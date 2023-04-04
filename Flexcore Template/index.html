@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,700;1,300;1,400&display=swap" rel="stylesheet">
+    <title>Flexcore Template</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Студия хэппи</a></li>
+                <li><a href="#">Обратная связь</a></li>
+                <li><a href="#">Для прессы</a></li>
+                <li><a href="#">Сотрудничество</a></li>
+            </ul>
+            <div class="coords">
+                <a href="#"><img src="./img/map.png" alt="" class="map"></a>
+                <a href="#"><div class="moscow">Москва</div></a>
+                
+            </div>  
+            
+        </nav>
+    </header>
+    <main>
+            <section class="bigmac">
+                    <div class="modal_window" id="modal">
+                        <div class="modal_content">
+                            <div class="modal_left-col">
+                                <img src="./img/bigmac_modal_pic.png" alt="" class="modal_img">
+                                <div class="modal_title">Биг Мак</div>
+                                <p>Большой бургер с двумя рублеными бифштексами из 100% говядины на булочке с кунжутом, 
+                                    поджаренной в тостере, 
+                                    маринованными огурчиками, луком, свежим салатом «Айсберг», 
+                                    ломтиком плавленого сыра «Чеддер» 
+                                    и специальным соусом «Биг Мак».</p>
+                            </div>
+                            <div class="modal_right-col">
+                                <div class="wisheslist">
+                                    
+                                        <div class="wishes_title">
+                                            Особые пожелания
+                                        </div>
+                                        <div class="checklist">
+                                            <label class="check_item">
+                                                <input type="checkbox" name="1" value="Убрать Салат" checked="checked">
+                                                <span></span>
+                                                <div class="item-value">Убрать Салат</div>
+                                            </label>
+                                            <label class="check_item">
+                                                <input type="checkbox" name="2" value="Убрать Сыр">
+                                                <span></span>
+                                                <div class="item-value">Убрать Сыр</div>
+                                            </label>
+                                            <label class="check_item">
+                                                <input type="checkbox" name="3" value="Убрать Соль">
+                                                <span></span>
+                                                <div class="item-value">Убрать Соль</div>
+                                            </label>
+                                            <label class="check_item">
+                                                <input type="checkbox" name="4" value="Убрать Бифштекс">
+                                                <span></span>
+                                                <div class="item-value">Убрать Бифштекс</div>
+                                            </label>
+                                            <label class="check_item">
+                                                <input type="checkbox" name="5" value="Убрать Соус Биг Мак">
+                                                <span></span>
+                                                <div class="item-value">Убрать Соус Биг Мак</div>
+                                            </label>
+                                            <label class="check_item">
+                                                <input type="checkbox" name="6" value="Убрать Лук восст.">
+                                                <span></span>
+                                                <div class="item-value">Убрать Лук восст.</div>
+                                            </label>
+                                            <label class="check_item">
+                                                <input type="checkbox" name="7" value="Дополнительно Сыр">
+                                                <span></span>
+                                                <div class="item-value">Дополнительно Сыр</div>
+                                            </label>
+                                            <label class="check_item">
+                                                <input type="checkbox" name="8" value="Убрать Огурец маринов.">
+                                                <span></span>
+                                                <div class="item-value">Убрать Огурец маринов.</div>
+                                            </label>
+                                        </div>
+                                        <div class="drink_title">
+                                            Напиток
+                                        </div>
+                                        <div class="radiolist">
+                                            <label class="radio_item">
+                                                <input type="radio" name="1" value="Кока-Кола" checked>
+                                                <span></span>
+                                                <div class="item_radio-value">Кока-Кола</div>
+                                            </label>
+                                            <label class="radio_item">
+                                                <input type="radio" name="1" value="Кока-Кола Зеро">
+                                                <span></span>
+                                                <div class="item_radio-value">Кока-Кола Зеро</div>
+                                            </label>
+                                            <label class="radio_item">
+                                                <input type="radio" name="1" value="Американо большой" >
+                                                <span></span>
+                                                <div class="item_radio-value">Американо большой</div>
+                                            </label>
+                                            <label class="radio_item">
+                                                <input type="radio" name="1" value="Спрайт">
+                                                <span></span>
+                                                <div class="item_radio-value">Спрайт</div>
+                                            </label>
+                                        </div>
+                                </div>
+                                <div class="purchase">
+                                    <div class="total_price">
+                                        <div class="total">Итого</div>
+                                        <div class="t-price">95.99 &#8381</div>
+                                    </div>
+                                    <div class="make_purchase">
+                                        <div class="plus-minus">
+                                            <img src="./img/minus.svg" alt="" class="minus">
+                                              <div class="counter">1</div>
+                                            <img src="./img/plus.svg" alt="" class="plus">
+                                        </div>
+                                        <button class="purchase_button" id="close">Оформить заказ</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="mac_nav">
+                        <img src="./img/mac_logo.svg" alt="" class="mac_logo">
+                        <ul class="mac_menu">
+                            <li><a href="#">Меню</a></li>
+                            <li><a href="#">Мы на карте</a></li>
+                            <li><a href="#">Новинки и акции</a></li>
+                            <li><a href="#">Маккафе</a></li>
+                            <li><a href="#">Качество</a></li>
+                            <li><button class="trashcan"><img src="./img/trashcan.svg" alt="" class="trashcan-img">
+                                    <div>Корзина</div>
+                                </button>
+                            </li>
+                        </ul>
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                     
+                        </div>
+                    </nav>    
+                
+                
+                <img src="./img/bigmac_mini.png" alt="" class="bigmac_mini">
+                <div class="container bigmac_container">
+                    <span class="action">Акция "МАК ДЛЯ ВСЕХ"</span>
+                    <h1>Биг Мак каждому!</h1>
+                    <p>Лучший бургер по баснословно низкой цене. <br>
+                        С 1 26 Марта успейте забрать Биг Мак со скидкой 
+                        и получите молочный коктейль в подарок.</p>
+                    <span class="grey"><div class="cross_out"></div> 299.99 &#8381</span>
+                    <div class="price_buy">
+                        <div class="price">95.99 &#8381</div>
+                        <div class="buy-button" id="button"><img src="./img/buy.svg" alt="" class="buy-img"><div>Купить</div></div>
+                    </div>
+                </div>
+            </section>
+            <section class="why_bigmac">
+                <div class="container">
+                    <h2>Почему именно Биг Мак?</h2>
+                    
+                    <p>Мы считаем, что мак является одним из наших лучших блюд которое каждый обязан попробовать.</p>
+                    <div class="offerings">
+                        <div class="offering-card">
+                            <img src="./img/nature.svg" alt="" class="off-img nature-img">
+                            <h3>Натуральность</h3>
+                            <p class="off-desc">Наш Мак состоит из 100% натуральной говядины на булочке с кунжутом, 
+                            поджаренной в тостере, маринованными огурчиками, луком, свежим салатом «Айсберг».</p>
+                        </div>
+                        <div class="mid-block"></div>
+                        <div class="offering-card">
+                            <img src="./img/pig.svg" alt="" class="off-img">
+                            <h3>Выгода</h3>
+                            <p class="off-desc">Благодаря акции на Мак вы сможете приобрести не только этот вкуснейший бургер но так же выбрать комбо наборы с 
+                                “Мак Комбо” которые вы получите со скидкой до 50%</p>
+                        </div>
+                        <div class="mid-block"></div>
+                        <div class="offering-card">
+                            <img src="./img/present.svg" alt="" class="off-img">
+                            <h3>Всё для друзей</h3>
+                            <p class="off-desc">При покупке от 3 маков вы получаете
+                                бесплатную пачку хрустящей картошки фри и латте к каждому из них.
+                                Делиться приятно :)</p>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+               
+            </section>
+            <section class="maccombo">
+                <div class="container">
+                    <h2>МакКомбо</h2>
+                    <div class="underline"></div>
+                    <img src="./img/maccombo_mini.png" alt="" class="maccombo_mini">
+                        
+
+                    <div class="maccombo-right"> 
+                        <div class="slide_spots">
+                            <div class="yellow-block"></div>
+                            <div class="spot"></div>
+                            <div class="spot"></div>
+                            <div class="spot"></div>
+                        </div>
+
+                        <h3>Биг Мак МакКомбо Большой</h3>
+
+                        <p>Большой МакКОМБО с Биг Маком®, большой порцией картофеля и одним холодным (0,5) 
+                            или горячим (0,3 или 0,4) напитком. Цена за МакКомбо указана в комплектации 
+                            со стандартным Горячим (Кофе 0,2, Чай 0,2) или Холодным напитком 0,4 л. (кроме Молочных Коктейлей) 
+                            и Стандартной порцией Картофеля Фри. При изменении комплектации цена МакКомбо может измениться.</p>
+                            <div class="price_buy-maccombo">
+                                <div class="price">95.99 &#8381</div>
+                                <div class="buy-button"><img src="./img/buy.svg" alt="" class="buy-img"><div>Купить</div></div>
+                            </div>
+
+                    </div>       
+                </div>
+            </section>
+            <section class="add_bigmac">
+                <div class="big_container">
+                    <h2>Дополните свой БигМак</h2>
+                    <div class="underline"></div>
+                    <div class="add_cards">
+                        <div class="add-card">
+                            <img src="./img/img1.png" alt="" class="card_img">
+                            <div class="card_title">Хорошая пара с Лате</div>
+                            <div class="card_desc">Два Латте 0,3 по специальной цене!</div>
+                            <button class="card_button">120 &#8381 +</button>
+                        </div>
+                        <div class="add-card">
+                            <img src="./img/img2.png" alt="" class="card_img">
+                            <div class="card_title">Айриш Капучино</div>
+                            <div class="card_desc">Классический капучино с воздушной молочной пенкой и сиропом со вкусом сливочного ликера...</div>
+                            <button class="card_button">120 &#8381 +</button>
+                        </div>
+                        <div class="add-card">
+                            <img src="./img/img3.png" alt="" class="card_img">
+                            <div class="card_title">Американо Большой</div>
+                            <div class="card_desc">Кофе черный.</div>
+                            <button class="card_button">120 &#8381 +</button>
+                        </div>
+                        <div class="add-card">
+                            <img src="./img/img4.png" alt="" class="card_img">
+                            <div class="card_title">Ягодный Пунш</div>
+                            <div class="card_desc">Встречайте — снова в меню! Горячий напиток на основе натурального пюре из ягод малины и черной...</div>
+                            <button class="card_button">120 &#8381 +</button>
+                        </div>
+                        <div class="add-card">
+                            <img src="./img/img5.png" alt="" class="card_img">
+                            <div class="card_title">Кока-Кола средняя</div>
+                            <div class="card_desc">Прохладительный газированный напиток «Кока-Кола»®.</div>
+                            <button class="card_button">120 &#8381 +</button>
+                        </div>
+                        <div class="add-card">
+                            <img src="./img/img6.png" alt="" class="card_img">
+                            <div class="card_title">Соус Чесночный</div>
+                            <div class="card_desc">Пикантный соус с нежным сливочно-чесночным вкусом.</div>
+                            <button class="card_button">120 &#8381 +</button>
+                        </div>
+                        <div class="add-card">
+                            <img src="./img/img7.png" alt="" class="card_img">
+                            <div class="card_title">Соус Сырный</div>
+                            <div class="card_desc">Соус со вкусом сыра</div>
+                            <button class="card_button">120 &#8381 +</button>
+                        </div>
+                        <div class="add-card">
+                            <img src="./img/img8.png" alt="" class="card_img">
+                            <div class="card_title">Соус Терияки</div>
+                            <div class="card_desc">Классический  солоновато-сладкий соус  Азиатской  кухни на основе соевого соуса.</div>
+                            <button class="card_button">120 &#8381 +</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+        </main>        
+            <footer>
+                <div class="footer_container">
+                    <div class="footer_menu">
+                        <div class="maccookies">
+                            <img src="./img/mac_logo.svg" alt="" class="mac_logo">
+                            <p>Мы используем cookies, чтобы вам было удобнее пользоваться сайтом. 
+                               Продолжая пользоваться сайтом, вы принимаете условия обработки персональных данных</p>
+                        </div>
+                        <div class="menu_unit">
+                            <ul>
+                                <li class="menu_item menu_unit-title">О нас</li>
+                                <li class="menu_item"><a href="#">Доставка</a></li>
+                                <li class="menu_item"><a href="#">Новости</a></li>
+                                <li class="menu_item"><a href="#">Франчайзинг</a></li>
+                                <li class="menu_item"><a href="#">Благотворительность</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu_unit">
+                            <ul>
+                                <li class="menu_item menu_unit-title">О нас</li>
+                                <li class="menu_item"><a href="#">Доставка</a></li>
+                                <li class="menu_item"><a href="#">Новости</a></li>
+                                <li class="menu_item"><a href="#">Франчайзинг</a></li>
+                                <li class="menu_item"><a href="#">Благотворительность</a></li>
+                            </ul>
+                        </div>
+                        <div class="menu_unit menu_unit_social">
+                            <ul>
+                                <li class="menu_item menu_unit-title menu_unit-title-social">Подписывайтесь на рассылку</li>
+                                <li class="menu_item">
+                                    <div class="social_webs">
+                                        <a href=""><img src="./img/vk.svg" alt="" class="web-img"></a>
+                                        <a href=""><img src="./img/inst.svg" alt="" class="web-img"></a>
+                                        <a href=""><img src="./img/whatsapp.svg" alt="" class="web-img"></a>
+                                        <a href=""><img src="./img/facebook.svg" alt="" class="web-img"></a>
+                                        <a href=""><img src="./img/youtube.svg" alt="" class="web-img"></a>
+                                    </div>
+                                </li>
+                                <li class="menu_item"></li>
+                                <li class="menu_item"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <div class="contacts">
+                            <div class="contact_center">
+                                    <div class="contact_phone">
+                                        <a href="">Контакт-центр</a> 
+                                        <a href=""><span class="phone">8 (495) 190 99 99</span></a>
+                                    </div>    
+                                <div class="info">
+                                    <a href="">Правовая информация</a>
+                                </div>
+                            </div>
+                        <div class="copyright">2021 © McDonald's Corporation</div>
+                    </div>
+                </div>
+            </footer>
+            <script src="./script.js"></script>
+</body>
+</html>
